@@ -1,0 +1,72 @@
+body {
+    
+    height: 100vh; 
+    margin: 0; 
+}
+
+.main {
+    display: flex; 
+    flex-direction: column; 
+    height: 100vh; /* set main container height to 100vh */
+}
+
+.custom-navbar {
+    height: 60px; /* set navbar height */
+    background-color: #f0f0f0; /* set navbar background color */
+    padding: 10px; /* add padding to navbar */
+    border-bottom: 1px solid #ddd; /* add border to navbar */
+}
+
+.background-radial-gradient {
+    flex: 1; /* make section take up remaining space */
+    display: flex; /* make section a flex container */
+    justify-content: center; /* center content horizontally */
+    align-items: center; /* center content vertically */
+    background-color: hsl(218, 41%, 15%);
+    
+}
+
+.card.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9)!important;
+    backdrop-filter: saturate(200%) blur(25px);
+    border-radius: 20px; /* add border radius to card */
+    padding: 20px; /* add padding to card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow to card */
+}
+
+
+.form-control {
+    border-radius: 20px; /* add border radius to form inputs */
+    padding: 10px; /* add padding to form inputs */
+    font-size: 16px; /* increase font size of form inputs */
+}
+
+.btn-primary {
+    background-color: #337ab7; /* change primary button color */
+    border-color: #337ab7; /* change primary button border color */
+    padding: 10px 20px; /* add padding to primary button */
+    font-size: 16px; /* increase font size of primary button */
+    border-radius: 20px; /* add border radius to primary button */
+}
+
+.custom-height {
+    display: flex;
+   margin-top: 20px;
+   margin-bottom: auto;
+   height: 100%;
+   
+
+}
+.social-icons a:hover {
+    color: #3b5998; /* Facebook Blue */
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons a{
+    font-size: 25px;
+}
