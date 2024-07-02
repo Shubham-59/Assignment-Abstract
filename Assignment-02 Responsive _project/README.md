@@ -1,4 +1,5 @@
 Responsive Website Project
+
 Overview
 This project is a responsive website designed to work seamlessly across various devices, including mobile phones, tablets, and desktops. The website includes a home page, login page, and signup page, all crafted to provide an optimal user experience regardless of the device being used.
 
