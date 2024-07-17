@@ -1,0 +1,41 @@
+/* styles.css */
+
+.banner-container {
+    width: 100%;
+    text-align: center; 
+}
+
+.banner-image {
+    width: 960px; 
+    height: 275px;
+    border: 1px solid black; 
+}
+.nav {
+
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+.nav a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    margin-left: 270px;
+}
+.container div {
+    border: 1px solid black;
+    margin-right: 5px;
+}
+.container div img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.container .a{
+
+    padding: 2px;
+   
+}
